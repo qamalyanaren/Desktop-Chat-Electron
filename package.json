@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "Chat",
   "main": "./app/main.js",
+  "build": {
+    "appId": "am.4Steps.chat"
+  },
   "scripts": {
     "start": "electron .",
     "dev": "webpack -d --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "dist": "build"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
     "nodejs-websocket": "^1.7.1",
     "photonkit": "^0.1.2",
@@ -29,9 +36,11 @@
     "css-loader": "^0.28.0",
     "devtron": "^1.4.0",
     "electron": "^1.6.2",
+    "electron-builder": "^20.26.1",
     "electron-debug": "^1.1.0",
     "file-loader": "^0.11.1",
     "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
     "webpack": "^2.3.3"
   }
 }

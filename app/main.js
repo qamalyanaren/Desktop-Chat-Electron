@@ -12,7 +12,8 @@ const CHROME_EXT_DIR = "/home/sheiko/.config/google-chrome/Default/Extensions";
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1000, height: 600, frame: false
+    width: 1000, height: 600, frame: false,
+      icon: path.join(__dirname, "icon-64x64.png")
   });
 
 //  BrowserWindow.addDevToolsExtension( CHROME_EXT_DIR + "/fmkadmapgofadopljbjfkapdkoienihi/2.0.12_0" );
