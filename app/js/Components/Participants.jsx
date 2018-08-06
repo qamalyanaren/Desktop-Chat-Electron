@@ -47,7 +47,7 @@ export default class Participants extends React.Component {
             <li className="list-group-item" key={user.name}>
               <div className="media-body">
                 <strong><span className="icon icon-user"></span>&nbsp;{user.name}</strong>
-                <p>Joined <TimeAgo date={user.time} /></p>
+                <p>Միացել է <TimeAgo date={user.time} /></p>
               </div>
             </li>
           ))}

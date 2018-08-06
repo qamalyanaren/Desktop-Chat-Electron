@@ -28,12 +28,12 @@ export default class Welcome extends React.Component {
       <div className="pane padded-more">
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
-            <label>Tell me your name</label>
-            <input required className="form-control" placeholder="Name"
+            <label>Ասեք ինձ Ձեր անունը</label>
+            <input required className="form-control" placeholder="Անուն"
               ref={(input) => { this.nameEl = input; }} />
           </div>
           <div className="form-actions">
-            <button className="btn btn-form btn-primary">OK</button>
+            <button className="btn btn-form btn-primary">ԼԱՀ</button>
           </div>
         </form>
       </div>

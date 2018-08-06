@@ -99,12 +99,12 @@ export default class Conversation extends React.Component {
           </ul>
           <form onSubmit={this.onSubmit} className="l-chat-form">
             <div className="form-group">
-              <textarea required placeholder="Say something..."
+              <textarea required placeholder="Ասա ինչ-որ բան..."
                 onKeyDown={this.onKeydown}
                 className="form-control" ref={ el => { this.inputEl = el; }}></textarea>
             </div>
             <div className="form-actions">
-              <button className="btn btn-form btn-primary">OK</button>
+              <button className="btn btn-form btn-primary">ԼԱՀ</button>
             </div>
           </form>
         </div>
